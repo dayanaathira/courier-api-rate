@@ -146,3 +146,4 @@
 {"contentLength":"-","level":"info","message":"HTTP Access Log","method":"GET","responseTime":0.917,"status":304,"timestamp":"Wed Aug 10 2022 13:47:39 GMT+0800 (Malaysia Time)","url":"/api-docs/"}
 {"contentLength":"16","level":"info","message":"HTTP Access Log","method":"GET","responseTime":8.045,"status":200,"timestamp":"Wed Aug 10 2022 13:47:52 GMT+0800 (Malaysia Time)","url":"/"}
 {"contentLength":"150","level":"info","message":"HTTP Access Log","method":"GET","responseTime":3.413,"status":404,"timestamp":"Wed Aug 10 2022 13:47:52 GMT+0800 (Malaysia Time)","url":"/favicon.ico"}
+{"contentLength":"55","level":"info","message":"HTTP Access Log","method":"GET","responseTime":207.22,"status":200,"timestamp":"Wed Aug 10 2022 14:21:32 GMT+0800 (Malaysia Time)","url":"/checkResponse"}

@@ -79,3 +79,34 @@ paths:
             example:
               Rate : 0
               Courier : Citylink
+  /checkResponse:
+    get:
+      tags:
+        - Check response for Jnt and Citylink
+      description: Get response from Jnt and Citylink
+      summary: Get response from Jnt and Citylink
+      responses:
+        '200':
+          description: OK
+          schema:
+            title: returnObject
+            type: object
+            properties:
+              id:
+                type: integer
+              hash:
+                type: string
+              filename:
+                type: string
+              attachment_url:
+                type: string
+              last_update_by:
+                type: string
+              last_update_on:
+                type: string
+            example:
+              results: [
+              {
+                "status": "Response from Citylink and J&T are success"
+              }
+              ]
