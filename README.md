@@ -1,7 +1,7 @@
 # courier-api-rate
 API call another API for shipping rate
 
-*How this API works?*
+***How this API works?***
 - Using axios npm to make request into the endpoints.
 - Using api cache to received response faster if the response same as previous
 - Using swagger-ui in yaml file (This file is inside folder swagger)
@@ -10,18 +10,18 @@ API call another API for shipping rate
 - All logs will be inside logs -> access.log. Using winston and morgan
   - Logs will return level of error and error mesage.
  
- *To run the program"
+ ***To run the program***
  1. npm install
  2. npm start / nodemon start
  
  
- *For testing* 
+ ***For testing***
  1. npm test.
  - Testing file is inside folder test -> testing.js
  - Testing is using supertest and chai.
  - Testing the post request for the /sendCitylink
  
- *Using swagger*
+ ***Using swagger***
  <sub>To use the swagger simply fill the data as example below: </sub>
  ```
  {
