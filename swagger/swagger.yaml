@@ -1,0 +1,83 @@
+swagger: "2.0"
+info:
+  description: "API call another API endpoints for courier rates"
+  version: "1.0.0"
+  title: "Courier Rate based on citylink and jnt"
+  termsOfService: ""
+  contact:
+    email: "dayanaathira@gmail.com"
+host: "localhost:3000"
+basePath: "/"
+schemes:
+  - "http"
+consumes: 
+  - application/json
+produces:
+  - application/json
+paths:
+  /sendCitylink:
+    post:
+      tags:
+        - Courier Citylink
+      description: Courier citylink rates
+      summary: citylink - shipping rates
+      parameters:
+        - in: body
+          name: inputCategoryJSON
+          schema:
+            type: object
+            properties:
+              origin_country:
+                type: string
+              origin_state:
+                type: string
+              origin_postcode:
+                type: string
+              destination_country:
+                type: string
+              destination_state:
+                type: string
+              destination_postcode:
+                type: integer
+              length:
+                type: integer
+              width:
+                type: integer
+              height:
+                type: integer
+              selected_type:
+                type: string
+              parcel_weight:
+                type: string
+              document_weight:
+                type: string
+            required:
+              - origin_country
+              - origin_state
+              - origin_postcode
+              - destination_country
+              - destination_state
+              - destination_postcode
+              - length
+              - width
+              - height
+              - selected_type
+              - parcel_weight
+              - document_weight
+      responses:
+        '200':
+          description: OK
+          schema:
+            title: returnObject
+            type: object
+            properties:
+              status:
+                type: integer
+              results:
+                type: boolean
+              message:
+                type: string
+            example:
+              status : 0
+              results : true
+              message : 'Success'
