@@ -36,7 +36,7 @@ API call another API for shipping rate
   "height": 10,
   "selected_type": "1",
   "parcel_weight": "2",
-  "document_weight": "string"
+  "document_weight": ""
 }
  ```
  
