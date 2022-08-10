@@ -105,8 +105,4 @@ paths:
               last_update_on:
                 type: string
             example:
-              results: [
-              {
-                "status": "Response from Citylink and J&T are success"
-              }
-              ]
+              results: 'Response from Citylink and J&T are success'
