@@ -1,6 +1,6 @@
 # courier-api-rate
-API call another API for shipping rate
-First Assessment for TM Interview
+## First Assessment for TM Interview
+### API call another API for shipping rate
 
 ***How this API works?***
 - Using axios npm to make request into the endpoints.
