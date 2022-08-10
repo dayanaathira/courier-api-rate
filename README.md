@@ -5,7 +5,7 @@ API call another API for shipping rate
 - Using axios npm to make request into the endpoints.
 - Using api cache to received response faster if the response same as previous
 - Using swagger-ui in yaml file (This file is inside folder swagger)
-- Dockerize on port 3000
+- Dockerize on port 3000 [container node-app]
 - Using helmet npm for API security
 - All logs will be inside logs -> access.log. Using winston and morgan
   - Logs will return level of error and error mesage.
