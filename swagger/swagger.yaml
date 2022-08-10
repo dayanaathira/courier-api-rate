@@ -6,7 +6,7 @@ info:
   termsOfService: ""
   contact:
     email: "dayanaathira@gmail.com"
-host: "localhost:3000"
+host: "courier-rate.herokuapp.com"
 basePath: "/"
 schemes:
   - "http"
@@ -71,13 +71,10 @@ paths:
             title: returnObject
             type: object
             properties:
-              status:
-                type: integer
-              results:
-                type: boolean
-              message:
+              rate:
+                type: string
+              courier:
                 type: string
             example:
-              status : 0
-              results : true
-              message : 'Success'
+              Rate : 0
+              Courier : Citylink
