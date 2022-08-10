@@ -9,8 +9,9 @@ info:
 host: "courier-rate.herokuapp.com"
 basePath: "/"
 schemes:
+  - "https"
   - "http"
-consumes: 
+consumes:
   - application/json
 produces:
   - application/json
