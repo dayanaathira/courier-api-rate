@@ -49,4 +49,4 @@
 }
  ```
  
-*I am still trying to figure out the JnT endpoint as they need the csrf token, I will keep updating the code and might add another courier. This is such a good experience in developing Node JS Rest API. Thank you for the opportunity.*
+
