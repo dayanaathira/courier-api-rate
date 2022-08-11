@@ -26,8 +26,8 @@
  <sub>To use the swagger simply fill the data as example below: </sub>
  
  *For selected_type you can choose between 1 and 2*
-    1 - Parcel package
-    2 - Document type
+    <br> 1 - Parcel package </br>
+    <br> 2 - Document type </br>
     
 *For destination_postcode you can use 5000 for outside Malaysia*
 
