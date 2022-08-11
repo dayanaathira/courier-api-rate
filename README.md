@@ -9,7 +9,7 @@
 - Dockerize on port 3000 [container node-app]
 - Using helmet npm for API security
 - All logs will be inside logs -> access.log. Using winston and morgan
-  - Logs will return level of error and error mesage.
+  - Logs will return level of error and error message.
  
  ***To run the program***
  1. npm install
@@ -49,4 +49,4 @@
 }
  ```
  
-*I am still trying to figure out the JnT endpoint as they need the csrf token, I will keep updatig the code and might add another courier. This is such a good experience in developing Node JS Rest API. Thank you for the opportunity.*
+*I am still trying to figure out the JnT endpoint as they need the csrf token, I will keep updating the code and might add another courier. This is such a good experience in developing Node JS Rest API. Thank you for the opportunity.*
